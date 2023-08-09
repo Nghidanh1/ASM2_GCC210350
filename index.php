@@ -25,8 +25,8 @@ $row = $re->fetch_assoc()
                     while ($row = $re->fetch_assoc()) {
                     ?>
                         <div class="single-wid-product text-center">
-                            <a href="products.php?id=<?= $row['pid'] ?>"><img src="./images/<?= $row['pimage'] ?>" style="width: 60%;" alt="" class="product-thumb"></a>
-                            <h2><a href="products.php?id=<?= $row['pid'] ?>"><?= $row['pname'] ?></a></h2>
+                            <a href="detail.php?id=<?= $row['pid'] ?>"><img src="./images/<?= $row['pimage'] ?>" style="width: 60%;" alt="" class="product-thumb"></a>
+                            <h2><a href="detail.php?id=<?= $row['pid'] ?>"><?= $row['pname'] ?></a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
